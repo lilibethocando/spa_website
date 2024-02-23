@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .feature-icon {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 0.75rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.jpeg" alt="Beauty logo" height="30">Lilly's Spa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://giphy.com/gifs/prismaxusa-hair-care-nutritivo-prismax-vXxH4qtlZRCQ95NoJS" target="_blank">Hair Styling</a></li>
+                            <li><a class="dropdown-item" href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNW5mejRsZHc1dXhmMjFxNWpmNnU2ajdqcnU0NXR0bWNuMmxybnU4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/McaVuCIETWnJfznXg3/giphy.gif" target="_blank">Treatments</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm91MXE5cXg4ZmdiM2gyejZ0Nmk3amQycnZsdndvYWV6YW5vbDh5cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/V9w1GDNNGuUjyLJnDA/giphy.gif" target="_blank">Nail Care</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Find our locations" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Luxury Spa Experience</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Welcome to the Serene sanctuary of Lilly's Spa, where every moment is dedicated to your
+                relaxation and rejuvenation. Step into a world of Soothing tranquility, where the stresses of daily life
+                melt away under the expert care of our dedicated team. Our Satisfying array of services promises to
+                pamper and indulge, leaving you feeling refreshed, renewed, and ready to conquer the world. Immerse
+                yourself in the Serenity of our luxurious treatments, designed to soothe both body and soul. With
+                Sublime attention to detail and a commitment to excellence, we invite you to experience the ultimate spa
+                getaway. At Lilly's Spa, every visit is a journey of self-care and indulgence, an experience you won't
+                soon forget and will eagerly anticipate returning to.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Book Now</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Learn More</button>
+            </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="/Homework/images/pic1.webp" class="img-fluid border rounded-3 shadow-lg mb-4"
+                    alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">How can we help you indulge in self-care today?</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="./images/hair.svg" alt="Hair photo" height="50">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Hair Styling & Treatments</h3>
+                <p>Elevate your look with our professional hair styling and treatment services. Our talented
+                    hairstylists are dedicated to helping you achieve the perfect hairstyle that complements your unique
+                    personality and lifestyle. Whether you're in need of a fresh cut, vibrant color, or revitalizing
+                    hair treatment, we use only the finest products and techniques to ensure your locks look and feel
+                    their best. Step into our salon and leave with hair that turns heads and boosts your confidence.</p>
+                <a href="https://calendly.com/" class="icon-link" target="_blank">
+                    Schedule an appointment
+                    <img src="./images/right.png" alt="right arrow" height="15">
+                </a>
+            </div>
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="./images/massa.png" alt="Massage face" height="50">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Massage Therapy</h3>
+                <p>Indulge in the ultimate relaxation experience with our range of massage therapies tailored to your
+                    needs. Whether you're seeking relief from tension and stress, or simply craving some well-deserved
+                    pampering, our skilled massage therapists will melt away your worries with their expert touch. From
+                    Swedish massages to deep tissue techniques, each session is designed to promote healing, improve
+                    circulation, and leave you feeling blissfully rejuvenated.</p>
+                    <a href="https://calendly.com/" class="icon-link" target="_blank">
+                    Schedule an appointment
+                    <img src="./images/right.png" alt="right arrow" height="15">
+                </a>
+            </div>
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <img src="./images/nail.svg" alt="Nail" height="40">
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Nail Care & Spa Manicures/Pedicures</h3>
+                <p>Treat your hands and feet to the care they deserve with our luxurious nail care and spa
+                    manicure/pedicure services. From classic manicures to indulgent spa treatments, our skilled
+                    technicians will pamper your nails and cuticles, leaving them looking and feeling their absolute
+                    best. Choose from a wide range of nail colors and designs to express your style, and relax in our
+                    serene spa environment as we lavish attention on every detail. Walk out with beautifully groomed
+                    nails and a renewed sense of self-confidence.</p>
+                    <a href="https://calendly.com/" class="icon-link" target="_blank">
+                    Schedule an appointment
+                    <img src="./images/right.png" alt="right arrow" height="15">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/pic4.webp" class="d-block w-100" alt="Face">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pic2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pic3.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Lilly's Spa</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li>
+                    <img src="./images/social.png" alt="" height="90">
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
